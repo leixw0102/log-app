@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="app:war exploded">
+    <output-path>$PROJECT_DIR$/app/target/app</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="app/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="app" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
+          <element id="library" level="project" name="Maven: joda-time:joda-time:2.3" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.5" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.0.9" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.0.9" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:r08" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
